@@ -346,6 +346,17 @@ label {
         width: 10%;
         align-items: right;
     }
+
+    
+    #welcomeMessage {
+        width: 90%;
+        float: left;
+    
+        text-align: left;
+    
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -364,15 +375,5 @@ label {
         visibility: hidden;
         position: absolute;
     }
-
-    #welcomeMessage {
-    width: 90%;
-    float: left;
-
-    text-align: left;
-
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 }
