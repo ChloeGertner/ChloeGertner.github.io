@@ -102,6 +102,13 @@ a.link:hover {
     align-items: center;
 }
 
+#main.contactSections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .titleImage {
     height: 50px;
     position: relative;
