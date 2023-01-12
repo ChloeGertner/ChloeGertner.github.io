@@ -200,6 +200,11 @@ footer {
     border-color:#C64500;
 }
 
+.phoneVisible {
+    visibility: hidden;
+    position: absolute;
+}
+
 .callToAction {
     padding-left: 6px;
     margin-right: 8px;
@@ -347,25 +352,14 @@ label {
     }
 }
 
-@media screen and (max-width: 400px) {
-    a.link {
-        font-size: 10px;
-    }
-
-    #navLinks {
-        display: flex;
-        width: 90%;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #navIcons {
-        width: 10%;
-        align-items: right;
-    }
-}
 
 @media screen and (max-width: 400px) {
+    .phoneVisible {
+        visibility: visible;
+        position: fixed;
+    }
+
+
     a.link {
         font-size: 10px;
     }
