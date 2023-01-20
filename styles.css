@@ -329,6 +329,10 @@ label {
         font-size: 13px;
     }
 
+    .bannerImage {
+        height: 100px;
+    }
+
     #navLinks {
         display: flex;
         width: 75%;
