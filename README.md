@@ -1,6 +1,6 @@
 # ChloeGertner.github.io
 
-##WELCOME!
+## WELCOME!
 
 This is a website designed for both a local craftsman and an FBLA Web Design Contest.
 
