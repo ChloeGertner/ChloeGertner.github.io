@@ -363,7 +363,7 @@ label {
         position: absolute;
     }
 
-    .smallMediaBanner {
+    .smallMediaHide {
         visibility: visible;
         position: static;
     }
@@ -380,6 +380,11 @@ label {
     form {
         float: left;
         width: 90%;
+    }
+
+    .subscribeButton {
+        text-align: center;
+        float: none;
     }
 }
 
