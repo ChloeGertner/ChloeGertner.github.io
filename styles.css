@@ -367,6 +367,20 @@ label {
         visibility: visible;
         position: static;
     }
+
+    #formBody {
+        padding-bottom: 100px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        text-align: left;
+    }
+    
+    form {
+        float: left;
+        width: 90%;
+    }
 }
 
 
