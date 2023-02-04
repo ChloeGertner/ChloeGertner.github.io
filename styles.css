@@ -323,7 +323,10 @@ label {
 #email.txtInput {
     width: 150px;
 }
-
+.smallMediaBanner {
+    position: relative;
+    visibility: hidden;
+}
 @media screen and (max-width: 700px) {
     a.link {
         font-size: 13px;
@@ -353,6 +356,16 @@ label {
     
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .hideSmallMedia {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .smallMediaBanner {
+        visibility: visible;
+        position: static;
     }
 }
 
