@@ -381,6 +381,11 @@ label {
         float: left;
         width: 90%;
     }
+
+    .smallMediaHide {
+        visibility: hidden;
+        position: absolute;
+    }
 }
 
 
@@ -403,6 +408,11 @@ label {
     }
 
     #navIcons {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .smallMediaHide {
         visibility: hidden;
         position: absolute;
     }
