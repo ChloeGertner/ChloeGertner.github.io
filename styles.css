@@ -358,12 +358,12 @@ label {
         padding-right: 5%;
     }
 
-    .hideSmallMedia {
+    .smallMediaHide {
         visibility: hidden;
         position: absolute;
     }
 
-    .showSmallMedia {
+    .smallMediaShow {
         visibility: visible;
         position: static;
     }
